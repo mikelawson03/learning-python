@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You a cop?</title>
+    <link href="../static/style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Are you a cop cop cop cop cop?</h1>
+    <form action="/submit" method="post">
+        <div class="question">What's your favorite cookware?</div>
+            <div><input type="radio" name="cook" value="skillet" required>Skillet</div>
+            <div><input type="radio" name="cook" value="DO">Dutch Oven </div>
+            <div><input type="radio" name="cook" value="kettle">Kettle</div>
+        <div class="question">How many articles of clothing featuring an unlicensed Punisher skull do you own?</div>
+        <div><input type="number" name="punisher" required></div>
+        <div class="question">Which organization would you most like to attack with expensive military surplus gear?</div>
+            <select name="org" required>
+                <option value="" disabled selected>Choose one</option>
+                <option value="kkk">Ku Klux Klan</option>
+                <option value="blm">Black Lives Matter</option>
+                <option value="q">QAnon</option>
+            </select>
+        <div class="question"><button type="submit">I'm not a fuckin' cop cop cop cop cop</button></div>
+    </form>
+</body>
+</html>
