@@ -11,13 +11,6 @@ html, body {
   font-style: normal;
 }
 
-  
-img {
-  margin-top: 100px;
-  height: 200px;
-  width: auto;
-  border-radius: 50%;
-}
 
 h2 {
   margin: 0px;
@@ -54,7 +47,7 @@ a:visited {
 }
 
 .index-title{
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 .blog {
@@ -84,4 +77,8 @@ a:visited {
 .midnight {
   background-color: #160033;
   color: #c1e6f7;
+}
+
+.header {
+  margin: 20px 0px;
 }

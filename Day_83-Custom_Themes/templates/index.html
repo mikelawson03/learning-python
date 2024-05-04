@@ -6,9 +6,12 @@
     <title>{name}'s Blog</title>
     <link href="static/style.css" type="text/css" rel="stylesheet">
 </head>
-<body class="index-title {{theme}}">
-    <h1>{{name}}'s Blog</h1>
-    <h2><a href="/entry1">Entry 1</a></h2>
-    <h2><a href="/entry2">Entry 2</a></h2>
+<body class="{{theme}}">
+    <div class="header">{% include 'components/select-theme.html' %}</div>
+    <div class="index-title">
+        <h1>{{name}}'s Blog</h1>
+        <h2><a href="/entry1">Entry 1</a></h2>
+        <h2><a href="/entry2">Entry 2</a></h2>
+    </div>
 </body>
 </html>
